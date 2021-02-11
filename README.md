@@ -13,7 +13,7 @@ Docker
 ### Installing
 
 1. Clone/download the repo
-2. Cd into the root dir
+2. Cd into the app directory
 3. Run docker-compose build
 4. Run docker-compose up
 5. Browse to localhost:3000
