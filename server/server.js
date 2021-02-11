@@ -31,9 +31,13 @@ app.get('/download', async (req, res)=>{
         'attachment; filename=' + 'Current-Shipping-Rates.xlsx'
       )
       
-    return workbook.xlsx.write(res).then(function () {
-        res.status(200).end();
-    })
+      await workbook.xlsx.write(res)
+
+      res.on('error', ()=> {
+        return res.status(501).end()
+      })
+
+      return res.status(200).end()
 })
 
 app.listen(PORT, ()=>{`App server running on http://${HOST}:${PORT}`})
