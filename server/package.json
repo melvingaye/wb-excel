@@ -1,0 +1,19 @@
+{
+  "name": "wb-excel",
+  "version": "1.0.0",
+  "description": "Script to connect to database and create excel",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Melvin Gaye",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "exceljs": "^4.2.0",
+    "express": "^4.17.1",
+    "lodash.groupby": "^4.6.0",
+    "mysql2": "^2.2.5"
+  }
+}
