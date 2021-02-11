@@ -15,5 +15,5 @@ Docker
 1. Clone/download the repo
 2. Cd into the root dir
 3. Run docker-compose build
-4. Run docker-compose run
+4. Run docker-compose up
 5. Browse to host:3000
