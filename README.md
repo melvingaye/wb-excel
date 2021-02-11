@@ -16,4 +16,4 @@ Docker
 2. Cd into the root dir
 3. Run docker-compose build
 4. Run docker-compose up
-5. Browse to host:3000
+5. Browse to localhost:3000
